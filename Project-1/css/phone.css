@@ -1,0 +1,72 @@
+/* Tablet Layout */
+@media screen and (min-width: 200px) and (max-width: 991px) {
+  .socialArea {
+    max-width: 450px;
+    padding-top: 15px;
+  }
+
+  .innerNav::after {
+    display: none;
+  }
+  .innerNav {
+    background: none;
+  }
+  .mean-container .mean-nav {
+    margin-top: 0;
+    width: 80%;
+  }
+  .mean-container .mean-bar {
+    padding: 0;
+    min-height: auto;
+  }
+  .innerHeaderArea {
+    padding: 20px 1%;
+  }
+  .innerHeroArea h2 {
+    font-size: 50px;
+  }
+}
+/* Mobile Layout */
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .miniMenu {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .miniMenu ul,
+  .socialArea ul {
+    text-align: center;
+  }
+  .socialArea ul li {
+    margin: 0 6px;
+  }
+  .searchArea,
+  .logoArea {
+    float: none;
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .innerHeroArea h2 {
+    font-size: 31px;
+  }
+  .innerHeroArea {
+    padding-bottom: 10px;
+  }
+  #workArea,#footerArea {
+    padding: 20px 0;
+  }
+  .childWork {
+    width: 98%;
+  }
+  .childFooterArea {
+    width: 96%;
+  }
+  .leftCopyRight {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .rightCopyRight {
+    width: 100%;
+    text-align: left;
+  }
+} /* This is the last curly bracket */
